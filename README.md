@@ -14,4 +14,6 @@ testimage.png: This image may be used to test the functionality of the script.
 
 processed_devices.png: This image shows a handful of sorted devices post-processing via the script.
 
-example_results: This folder contains the images generated as the microscope camera moves accross the device plane, demonstrating appropriate discrimination and localization of devices.
+example_results.gif: This animation shows the images generated as the microscope camera moves accross the device plane, demonstrating appropriate discrimination and localization of devices.
+
+example_results: This folder contains the images displayed in the above .gif file.
