@@ -117,7 +117,7 @@ def update_device_cords(move_n):
                 cx = int(M['m10']/M['m00'])
                 cy = int(M['m01']/M['m00'])
 
-                #Determine if the device is upside down
+                #Determine if the device is upside-down based on the variance in brightness across the chip surface
                 device_surface = imagegray[cy-9:cy+9, cx-9:cx+9]
                 if np.std(device_surface) > surface_variance: 
                     cv2.putText(overlayed, ".", (cx, cy), cv2.FONT_HERSHEY_COMPLEX_SMALL, 0.1, (0, 0, 255), 1)
