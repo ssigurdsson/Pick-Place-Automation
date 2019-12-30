@@ -6,10 +6,9 @@ The script controls the software that accompanies the P&P machine, moving the mi
 
 As our devices are small, it's important that the script yields precise locations so that the precision is only limited by the components of the P&P machine.
 
-The below images demonstrate the computer-vision abilities of the script, as well as the resulting sorted devices (as processed by the P&P Machine).
+The animation below demonstrate the computer-vision abilities of the script, as well as the resulting sorted devices (as processed by the P&P Machine).
 
 ![results](example_results.gif)
-![devices](processed_devices.png)
 
 # Files & Folders
 
