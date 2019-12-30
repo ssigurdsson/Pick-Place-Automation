@@ -6,6 +6,9 @@ The script controls the software that accompanies the P&P machine, moving the mi
 
 As our devices are small, it's important that the software yields precise locations so that the precision is only limited by the components of the P&P machine.
 
+![results](example_results.gif)
+![devices](processed_devices.png)
+
 # Files & Folders
 
 pick_n_place_automation.py: This is the script that generates the appropriate files for input into the P&P software.
