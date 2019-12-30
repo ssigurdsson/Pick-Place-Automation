@@ -4,7 +4,9 @@ This python script enables automated Pick &amp; Place processing of unsorted com
 
 The script controls the software that accompanies the P&P machine, moving the microscope objective accross the plane in which the unsorted devices lie, registering the locations of each device and checking if the device is face-up or -down. The script then spits out files that may be uploaded to the P&P software for automated processing of the devices into ordered arrays.
 
-As our devices are small, it's important that the software yields precise locations so that the precision is only limited by the components of the P&P machine.
+As our devices are small, it's important that the script yields precise locations so that the precision is only limited by the components of the P&P machine.
+
+In the below images, the computer-vision capabilities of the script are highlighted, and the resulting sorted devices displayed (as processed by the P&P machine).
 
 ![results](example_results.gif)
 ![devices](processed_devices.png)
